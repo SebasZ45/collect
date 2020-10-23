@@ -5,7 +5,7 @@
     android:background="@android:color/transparent"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    android:padding="10dip">
+    android:padding="0dip">
 
     <ImageView
         android:id="@+id/splash"
@@ -14,52 +14,23 @@
         android:background="@android:color/transparent"
         android:contentDescription="@string/app_name"
         android:gravity="center"
-        android:padding="0dip"
+        android:padding="5dip"
         android:visibility="gone" />
 
     <LinearLayout
         android:id="@+id/splash_default"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="374dp"
+        android:layout_height="649dp"
         android:gravity="center_vertical|center_horizontal"
-        android:orientation="horizontal"
-        android:paddingBottom="5dip">
+        android:orientation="vertical"
+
+        android:paddingBottom="0dip">
 
         <ImageView
-            android:layout_width="72dip"
-            android:layout_height="72dip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/notes" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical|start"
-            android:orientation="vertical"
-            android:paddingBottom="5dip">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/transparent"
-                android:paddingStart="7dip"
-                android:paddingLeft="7dip"
-                android:paddingEnd="7dip"
-                android:paddingRight="7dip"
-                android:text="@string/alcaldia_test"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/transparent"
-                android:paddingEnd="7dip"
-                android:paddingLeft="7dip"
-                android:paddingRight="7dip"
-                android:paddingStart="7dip"
-                android:text="@string/app_url"
-                android:textSize="14sp" />
-        </LinearLayout>
+            android:src="@drawable/splash" />
     </LinearLayout>
+
 </LinearLayout>

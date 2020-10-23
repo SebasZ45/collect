@@ -34,10 +34,12 @@
         app:iconSpaceReserved="false" />
 
     <CheckBoxPreference
+        android:defaultValue="true"
         android:key="showSplash"
         android:summary="@string/show_splash_summary"
         android:title="@string/show_splash_title"
-        app:iconSpaceReserved="false" />
+        app:iconSpaceReserved="false"
+        />
 
     <Preference
         android:dependency="showSplash"
